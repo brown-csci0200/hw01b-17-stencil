@@ -9,6 +9,11 @@ import org.junit.runner.notification.Failure;
  */
 public class TestRunner {
 
+    /**
+     * Run all JUint tests in Homework 1B
+     *
+     * @param args Unused argument
+     */
     public static void main(String[] args) {
         Result result = JUnitCore.runClasses(Homework1BTest.class);
         for (Failure failure : result.getFailures()) {

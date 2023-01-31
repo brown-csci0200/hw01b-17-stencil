@@ -8,12 +8,13 @@ public class AutograderCompatibility {
   /** The main method of the autograder compatibility check.
    * @param args the command line arguments
    *
-   *  TODO: Uncomment the body of the main method.
+   *  ****** HOW TO USE ******
+   *  TODO 1: Uncomment the body of the main method.
    *  (in IntelliJ, you can select all commented lines
    *  and press COMMAND+/ or CONTROL+/)
-   *  TODO: Check that code compiles and runs.
+   *  TODO 2: Check that code compiles and runs.
    */
-//  public static void main(String[] args) {
+  public static void main(String[] args) {
 //    //-----------------------------
 //    //  Course
 //    //-----------------------------
@@ -67,5 +68,5 @@ public class AutograderCompatibility {
 //    ta.viewGrade(letterGR);
 //
 //    System.out.println("Your code works with the autograder!");
-//  }
+  }
 }
