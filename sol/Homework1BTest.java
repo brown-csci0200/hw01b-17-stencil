@@ -14,4 +14,9 @@ import org.junit.runners.MethodSorters;
  */
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class Homework1BTest {
+
+    @Test
+    public void testExample() {
+        Assert.assertEquals(2, 1 + 1);
+    }
 }
